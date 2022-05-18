@@ -47,18 +47,6 @@ namespace WPFLab1
             return ((TimeSpan)value).TotalMinutes.ToString();
         }
     }
-    class Converter3 : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            throw new NotImplementedException();
-        }
-
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            throw new NotImplementedException();
-        }
-    }
     public partial class MainWindow : Window
     {
         public MainWindow()
